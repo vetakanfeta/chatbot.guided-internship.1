@@ -3,7 +3,7 @@ import numpy as np
 
 st.title("Ballistic Bot")
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["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"]
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
